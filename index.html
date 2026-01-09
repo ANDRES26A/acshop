@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>ACShop | Ropa urbana & Zapatillas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #ffffff;
+      color: #222;
+    }
+
+    header {
+      background-color: #0b5ed7;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+
+    section {
+      padding: 30px;
+    }
+
+    h2 {
+      color: #0b5ed7;
+    }
+
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .producto {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .producto img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .precio {
+      font-weight: bold;
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 18px;
+      background-color: #0b5ed7;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    footer {
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>ACShop</h1>
+  <p>Ropa urbana & zapatillas originales</p>
+</header>
+
+<section>
+  <h2>Zapatillas</h2>
+
+  <div class="productos">
+
+    <div class="producto">
+      <img src="https://via.placeholder.com/300" alt="Nike Air Force 1">
+      <h3>Nike Air Force 1</h3>
+      <p class="precio">S/ 420</p>
+      <p>Tallas: 38 – 44</p>
+      <a class="btn"
+         href="https://wa.me/51TUNUMERO?text=Hola,%20quiero%20comprar%20las%20Nike%20Air%20Force%201">
+        Comprar
+      </a>
+    </div>
+
+    <div class="producto">
+      <img src="https://via.placeholder.com/300" alt="Adidas Forum">
+      <h3>Adidas Forum</h3>
+      <p class="precio">S/ 390</p>
+      <p>Tallas: 37 – 43</p>
+      <a class="btn"
+         href="https://wa.me/51TUNUMERO?text=Hola,%20quiero%20comprar%20las%20Adidas%20Forum">
+        Comprar
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>📲 Compra por WhatsApp o Instagram</p>
+  <p>© ACShop</p>
+</footer>
+
+</body>
+</html>
